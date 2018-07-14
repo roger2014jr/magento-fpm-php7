@@ -1,0 +1,16 @@
+web:
+  image: nginx:latest
+  ports:
+    - "80:80"
+
+  volumes:
+    - ./site.conf:/etc/nginx/conf.d/site.conf
+    - ~/Development/magento/code/magento:/var/www/html
+  links:
+    - php
+php:
+  build: ./php/
+  expose: 
+    - "9000"
+  volumes:
+    - ~/Development/magento/code/magento:/var/www/html
