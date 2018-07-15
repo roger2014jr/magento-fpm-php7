@@ -1,16 +1,37 @@
 web:
   image: nginx:latest
   ports:
-    - "80:80"
+    - "9081:80"
+  expose:
+    - "80"
+    - "443"
+  hostname: certifiedmuffler
+  environment:
+    VIRTUAL_HOST: certifiedmuffler.com
+    LETSENCRYPT_HOST: certifiedmuffler.com
+    LETSENCRYPT_EMAIL: roger2014jr@gmail.com
 
   volumes:
-    - ./site.conf:/etc/nginx/conf.d/site.conf
-    - ~/Development/magento/code/magento:/var/www/html
+    - ./conf.d:/etc/nginx/conf.d
+    - ~/certifiedmuffler.com/public_html:/var/www/html:rw
   links:
     - php
+
+
 php:
   build: ./php/
   expose: 
     - "9000"
   volumes:
-    - ~/Development/magento/code/magento:/var/www/html
+    - ~/certifiedmuffler.com/public_html:/var/www/html:rw
+  links:
+    - "cache:rediscache"
+    - "sessions:redissession"
+    - "fullpagecache:redisfullpagecache"
+
+cache:
+  image: redis:latest
+fullpagecache:
+  image: redis:latest
+sessions:
+  image: redis:latest
