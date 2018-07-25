@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Oscprofessionals_Flatship>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Shipping />
+            </depends>
+        </Oscprofessionals_Flatship>
+    </modules>
+</config> 

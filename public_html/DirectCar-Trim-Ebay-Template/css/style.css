@@ -1,0 +1,1147 @@
+@charset "utf-8";
+/* css document */
+
+ul, li,
+body {  transition: all 5s ease; }
+
+img {
+	max-width: 100%;
+}
+
+span[property=description] {
+	color:white;
+}
+
+body::-webkit-scrollbar {
+
+	transition: all 5s ease;
+	width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.15);
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: #DDD;
+	outline: 1px solid #EEE;
+}
+
+
+
+
+
+
+.aluminum .imgtable { background-image:url('https://directcartrim.com/images/aluminum-1.jpg') ; }
+
+.carbon .imgtable { background-image:url('https://directcartrim.com/images/carbon-fiber.png') ; }
+
+.wood .imgtable { background-color: #333; background-image:url('https://directcartrim.com/images/wood-bkg.jpg'); }
+
+
+
+
+
+#holder
+{ background-image:url(https://directcartrim.com/images/ebay-template_files/bg.jpg);
+background-position:center top;
+background-repeat:no-repeat;
+background-color:#fff;
+margin:auto;
+}
+#content {
+width:100%;
+margin:0 auto;
+background-color:#fff;
+}
+#searchwrapper {
+width:251px; /*follow your image's size*/
+height:36px;/*follow your image's size*/
+background-repeat:no-repeat; /*important*/
+padding:0px;
+margin:0px;
+position:relative; /*important*/
+}
+
+#searchwrapper form { display:inline ; }
+
+.searchbox {
+border: 0px; /*important*/
+background-color: transparent; /*important*/
+position: absolute; /*important*/
+top: 5px;
+left: 17px;
+width: 174px;
+height: 25px;
+padding-left: 7px;
+}
+
+.searchbox_submit {
+border: 0px; /*important*/
+background-color: transparent; /*important*/
+position: absolute; /*important*/
+top: 3px;
+left: 203px;
+width: 35px;
+height: 30px;
+}
+#menu {
+width: 700px;
+height: 36px;
+font-size: 12px;
+font-family: arial, helvetica, sans-serif;
+font-weight: bold;
+color:#fff;
+text-align: left;
+line-height:36px;
+padding-left:0px;
+}
+#menu ul {
+line-height: 36px;
+padding: 0px 0px 0 0;
+margin: 0px;
+color:#fff;
+}
+#menu li {
+line-height:36px;
+display: inline;
+padding: 0px;
+color:#fff;
+}
+#menu a {
+line-height:36px;
+text-decoration: none;
+color: #fff;
+padding: 10px 10px 11px 10px;
+}
+#menu a:hover {
+line-height:36px;
+color: #fff;
+background-color:#777;
+}
+#ebaycategories {
+width: 185px;
+margin:0;
+}
+#ebaycategories a {
+font-size:12px;
+font-family:arial, helvetica, sans-serif;
+line-height:36px;
+color:#000000;
+text-decoration:none;
+
+}
+#ebaycategories a:hover {
+text-decoration:none;
+color: #fff;
+}
+/* all unordered lists */
+#ebaycategories ul {
+list-style-type: none;
+padding: 0px 0px 0px 0px; margin:0;
+}
+/* 1st menu level */
+#ebaycategories .menuitem {
+margin: 0px;
+background-color:#fbfbfb;
+border-bottom:thin;
+display: block;
+height: 36px;
+padding: 0px 0px 0px 0px;
+border-bottom:thin solid #ccc;
+border-left:thin solid #ccc;
+border-right:thin solid #ccc;
+}
+
+#ebaycategories .menuitem li {
+padding: 0 0 0px 0px;
+line-height: 36px;
+margin:0;
+}
+/* 2nd menu level */
+#ebaycategories .menusub1item {
+font-weight: normal;
+background-color: #ffffff;
+margin:0;
+}
+#ebaycategories .menusub1item li {
+padding: 5px 0 5px 15px;
+margin:0;
+}
+/* 3rd menu level */
+#ebaycategories .menusub2item {
+font-weight: normal;
+background-color: #eeeeee;
+margin:0;
+}
+#ebaycategories .menusub2item li {
+padding: 5px 0 5px 25px;
+margin:0;
+}
+.subheadertitles {
+font-family: arial, helvetica, sans-serif;
+font-size: 12px;
+font-weight:bold;
+color: #fff;
+}
+.maindesctextbody {
+font-family: arial, helvetica, sans-serif;
+font-size: 14px;
+color: #777;
+}
+#box {
+border:thin solid #ccc;
+}
+#boxes {
+-webkit-border-top-right-radius: 10px;
+-webkit-border-bottom-right-radius: 10px;
+-moz-border-radius-topright: 10px;
+-moz-border-radius-bottomright: 10px;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+.searchbox1 { border: 0px; /*important*/
+background-color: transparent; /*important*/
+position: absolute; /*important*/
+top: 9px;
+left: 20px;
+width: 174px;
+height: 17px;
+padding-left: 7px;
+}
+.imgtable { background-color: #333;
+padding: 20px;
+
+-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+-khtml-border-radius: 8px;
+border-radius: 8px;
+}
+.smalltxt {font-size:10px; }
+
+
+#menusub2item .plus2,
+.has-subs div { display:none ; }
+
+#menusub2item li a {
+    padding-left: 5px !important;
+
+}
+
+#menusub2item li a,
+#menusub2item li a:hover { white-space: nowrap; overflow:hidden; }
+
+#cssmenu { width:97% !important; }
+
+
+
+
+
+
+
+
+
+
+
+
+.tabs-outter { height: 47px; overflow: hidden;
+}
+
+.tabs .tab .tab2 { left: 6.4em   ;}
+
+.tabs .tab .tab3 { left: 10.7em  ;}
+
+
+
+.img img { max-width: 100%; border-radius: 15px; }
+.img-float-left { float: left;
+	margin: 2em .9em 3em 0;
+	max-width: 150px;
+	overflow: hidden;
+	border-radius: 10px; }
+.img-float-left img { min-width: 100%; }
+
+.last { margin-right: 0 !important; }
+
+
+
+
+
+
+.imgtable {
+background-color: #333;
+padding: 20px;
+
+-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+-khtml-border-radius: 8px;
+border-radius: 8px;
+background-image:url('https://directcartrim.com/images/aluminum-1.jpg');
+
+}
+
+
+
+li.level2 ul { display: none !important; }
+#mcats1 li.has-sub.level1:hover a + ul { display: block 	;}
+#mcats1 li.has-sub.level2:hover a + ul { display: block !important ;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#holder
+{ background-image:url(https://directcartrim.com/images/ebay-template_files/bg.jpg);
+background-position:center top;
+background-repeat:no-repeat;
+background-color:#fff;
+margin:auto;
+}
+#content {
+width:100%;
+margin:0 auto;
+background-color:#fff;
+}
+#searchwrapper {
+width:251px; /*follow your image's size*/
+height:36px;/*follow your image's size*/
+background-repeat:no-repeat; /*important*/
+padding:0px;
+margin:0px;
+position:relative; /*important*/
+}
+
+#searchwrapper form { display:inline ; }
+
+.searchbox {
+border: 0px; /*important*/
+background-color: transparent; /*important*/
+position: absolute; /*important*/
+top: 5px;
+left: 17px;
+width: 174px;
+height: 25px;
+padding-left: 7px;
+}
+
+.searchbox_submit {
+border: 0px; /*important*/
+background-color: transparent; /*important*/
+position: absolute; /*important*/
+top: 3px;
+left: 203px;
+width: 35px;
+height: 30px;
+}
+#menu {
+width: 700px;
+height: 36px;
+font-size: 12px;
+font-family: arial, helvetica, sans-serif;
+font-weight: bold;
+color:#fff;
+text-align: left;
+line-height:36px;
+padding-left:0px;
+}
+#menu ul {
+line-height: 36px;
+padding: 0px 0px 0 0;
+margin: 0px;
+color:#fff;
+}
+#menu li {
+line-height:36px;
+display: inline;
+padding: 0px;
+color:#fff;
+}
+#menu a {
+line-height:36px;
+text-decoration: none;
+color: #fff;
+padding: 10px 10px 11px 10px;
+}
+#menu a:hover {
+line-height:36px;
+color: #fff;
+background-color:#777;
+}
+#ebaycategories {
+width: 185px;
+margin:0;
+}
+#ebaycategories a {
+font-size:12px;
+font-family:arial, helvetica, sans-serif;
+line-height:36px;
+color:#000000;
+text-decoration:none;
+
+}
+#ebaycategories a:hover {
+text-decoration:none;
+color: #fff;
+}
+/* all unordered lists */
+#ebaycategories ul {
+list-style-type: none;
+padding: 0px 0px 0px 0px; margin:0;
+}
+/* 1st menu level */
+#ebaycategories .menuitem {
+margin: 0px;
+background-color:#fbfbfb;
+border-bottom:thin;
+display: block;
+height: 36px;
+padding: 0px 0px 0px 0px;
+border-bottom:thin solid #ccc;
+border-left:thin solid #ccc;
+border-right:thin solid #ccc;
+}
+
+#ebaycategories .menuitem li {
+padding: 0 0 0px 0px;
+line-height: 36px;
+margin:0;
+}
+/* 2nd menu level */
+#ebaycategories .menusub1item {
+font-weight: normal;
+background-color: #ffffff;
+margin:0;
+}
+#ebaycategories .menusub1item li {
+padding: 5px 0 5px 15px;
+margin:0;
+}
+/* 3rd menu level */
+#ebaycategories .menusub2item {
+font-weight: normal;
+background-color: #eeeeee;
+margin:0;
+}
+#ebaycategories .menusub2item li {
+padding: 5px 0 5px 25px;
+margin:0;
+}
+.subheadertitles {
+font-family: arial, helvetica, sans-serif;
+font-size: 12px;
+font-weight:bold;
+color: #fff;
+}
+.maindesctextbody {
+font-family: arial, helvetica, sans-serif;
+font-size: 14px;
+color: #777;
+}
+#box {
+border:thin solid #ccc;
+}
+#boxes {
+-webkit-border-top-right-radius: 10px;
+-webkit-border-bottom-right-radius: 10px;
+-moz-border-radius-topright: 10px;
+-moz-border-radius-bottomright: 10px;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+.searchbox1 { border: 0px; /*important*/
+background-color: transparent; /*important*/
+position: absolute; /*important*/
+top: 9px;
+left: 20px;
+width: 174px;
+height: 17px;
+padding-left: 7px;
+}
+.imgtable { background-color: #333;
+padding: 20px;
+
+-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+-khtml-border-radius: 8px;
+border-radius: 8px;
+}
+.smalltxt {font-size:10px; }
+
+
+#menusub2item .plus2,
+.has-subs div { display:none ; }
+
+#menusub2item li a {
+    padding-left: 5px !important;
+
+}
+
+#menusub2item li a,
+#menusub2item li a:hover { white-space: nowrap; overflow:hidden; }
+
+#cssmenu { width:97% !important; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body
+ {
+	background:#fff no-repeat center top fixed;
+}
+/****top menu style***********/
+#nav_menu {
+    height: 62px;
+    width: 100%;
+    margin: 0px 0;
+    background-image:url('http://spoilernation.com/images/carbon-fiber.png');
+}
+#nav_menu #menu_panel {
+    height: 62px;
+    width: 100%;
+    float: left;
+	margin-left:1px;
+	font-family: casperregular, helvetica, arial, sans-serif;
+	font-size:14px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+#nav_menu #menu_panel span {
+
+}
+#nav_menu #menu_panel a {
+    float: left;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    height: 62px;
+    display: block;
+    line-height: 62px;
+    padding: 0px 58px;
+	font-family: casperregular, helvetica, arial, sans-serif;
+	font-size:14px;
+	text-decoration:none;
+	border-right:1px solid #585858;
+
+}
+#nav_menu #menu_panel a:hover {
+    background: #2a6db9; color:#fff !important;
+}
+
+#nav_menu #menu_panel a:active {
+    background: #fff;
+}
+
+/****top menu style***********/
+
+
+
+
+/*store default start*/
+.v4title
+ {
+	text-transform:uppercase !important;
+}
+.v4acp_head
+ {
+	text-transform:uppercase !important;
+}
+.v4mid
+ {
+	text-transform:uppercase !important;
+	color:#575756 !important;
+	font-size:12px !important;
+
+}
+.lcat
+ {
+	text-transform:uppercase !important;
+	color:#575756 !important;
+	font-size:12px !important;
+}
+.lev1
+ {
+	text-transform:uppercase !important;
+	color:#575756 !important;
+	font-size:12px !important;
+}
+.lev1 a
+ {
+	text-transform:uppercase !important;
+	color:#575756 !important;
+	font-size:12px !important;
+}
+.ttl
+ {
+	text-transform:uppercase !important;
+	color:#575756 !important;
+	font-size:12px !important;
+}
+
+.v4acpcont
+ {
+	padding-left:10px;
+}
+.v4acp_head
+ {
+	border-radius: 10px;
+}
+.lcat li
+ {
+	border-bottom:1px dotted #999999;
+	padding-bottom:3px;
+}
+
+table.v4thldr td  {
+    color: #ffffff;
+}
+#centralarea
+ {
+	padding-right:10px;
+}
+/*store default end*/
+
+.pagecontainer
+ {
+	background:#ffffff;
+	box-shadow: 0px 1px 8px #999999;
+}
+.toplink
+ {
+	font-family: casperregular, helvetica, arial, sans-serif;
+	font-size:11px;
+	color:#585756;
+	text-decoration:none;
+	font-weight:bold;
+}
+.toplink a
+ {
+	font-family: casperregular, helvetica, arial, sans-serif;
+	font-size:11px;
+	color:#585756;
+	text-decoration:none;
+	font-weight:bold;
+}
+.toplink a:hover
+ {
+	font-family: casperregular, helvetica, arial, sans-serif;
+	font-size:11px;
+	color:#a40000;
+	text-decoration:none;
+	font-weight:bold;
+}
+.toplink a:visited
+ {
+	font-family: casperregular, helvetica, arial, sans-serif;
+	font-size:11px;
+	color:#a40000;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+.menu_txt
+ {
+	font-family: casperregular, helvetica, arial, sans-serif;
+	font-size:15px;
+	color:#ffffff;
+	text-decoration:none;
+	font-weight:300;
+}
+.menu_txt a
+ {
+	font-family: casperregular, helvetica, arial, sans-serif;
+	font-size:15px;
+	color:#ffffff;
+	text-decoration:none;
+	font-weight:300;
+}
+.menu_txt a:hover
+ {
+	font-family: casperregular, helvetica, arial, sans-serif;
+	font-size:15px;
+	color:#beeb49;
+	text-decoration:none;
+	font-weight:300;
+}
+
+.header_txt
+ {
+	font-family: casperregular, helvetica, arial, sans-serif;
+	font-size:25px;
+	color:#5c0407;
+	border-bottom:1px solid #a3a3a3;
+}
+.txt2grey
+ {
+	font-family: casperregular, helvetica, arial, sans-serif;
+	font-size:18px;
+	line-height:20px;
+	color:#303030;
+}
+.price_txt
+ {
+	font-family: casperregular, helvetica, arial, sans-serif;
+	font-size:25px;
+	text-align:center;
+	line-height:40px;
+	color:#444444;
+}
+.txt_details
+ {
+	font-family: casperregular, helvetica, arial, sans-serif;
+	font-size:12px;
+	color:#cccccc;
+	padding:2px 0 2px 5px;;
+	background:#1d1818;
+}
+.txt_desc2
+ {
+	font-family: casperregular, helvetica, arial, sans-serif;
+	font-size: 16px;
+	line-height: 150%!important;
+	color:#000;
+}
+.price_bg_black
+ {
+	height:38px;
+	font-family: casperregular, helvetica, arial, sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	color:#ffffff;
+	vertical-align:middle;
+	padding-left:10px;
+	background-color:#000;
+	background-image:url('http://spoilernation.com/images/carbon-fiber.png');
+}
+
+
+/* slider css start  */
+
+#slider  {
+    width:auto;
+    height:303px;/* make it the same size as your images */
+    background:#fff url(loading.gif) no-repeat 50% 50%;
+    position:relative;
+    margin:0 auto;/*make the image slider center-aligned */
+}
+#slider img  {
+    position:absolute;
+    border:none;
+    display:none;
+}
+
+#slider a.imglink  {
+    z-index:2;
+    display:none;
+    position:absolute;
+    top:0px;
+    left:0px;
+    border:0;
+    padding:0;
+    margin:0;
+    width:100%;
+    height:100%;
+}
+#slider
+ {
+    transform: translate3d(0,0,0);
+    -ms-transform:translate3d(0,0,0);
+    -moz-transform:translate3d(0,0,0);
+    -o-transform:translate3d(0,0,0);
+}
+
+/* slider css end  */
+
+/*********************tab**********************/
+
+	ul.tabs  {
+		margin: 0;
+		padding: 0;
+		float: left;
+		list-style: none;
+		height: 45px;
+		border-bottom: 1px solid #999999;
+		border-left: 1px solid #999999;
+		width: 682px;
+	}
+	ul.tabs li  {
+		float: left;
+margin: 0;
+cursor: pointer;
+padding: 0px 13px;
+text-align: center;
+width: 21%;
+height: 45px;
+line-height: 45px;
+border: 1px solid #999999;
+border-left: none;
+
+background: #eeeeee;
+overflow: hidden;
+position: relative;
+
+
+
+	}
+ul.tabs.nocarbon li { padding: 0px 41px !important;}
+	#ebaycategories li a { color:#000 !important }
+	#ebaycategories li a:hover { color:#ffffff !important; }
+
+	ul.tabs li:hover  {
+		background: #2a6db9; color:#fff;
+	}
+	ul.tabs li.active {
+		background: #2a6db9;
+		border-bottom: 1px solid #2a6db9;
+
+	}
+	.tab_container  {
+		border: 1px solid #999999;
+		border-top: none;
+		clear: both;
+		float: left;
+		width: 681px;
+		background: #ffffff;
+	}
+	.tab_content  {
+		padding: 20px;
+		line-height:150% !important;
+		font-size:16px;
+		display: none;
+	}
+	#container  {
+		/*width: 960px;*/
+		margin: 0 auto;
+		font-family: casperregular, helvetica, arial, sans-serif;
+
+	}
+	#container .tabs  {
+		font-family: casperregular, helvetica, arial, sans-serif;
+		font-size:16px;
+        font-weight:normal !important;
+
+		color:#444444;
+
+	}
+
+    #container .tabs .active { color:#ffffff !important}
+
+.txt_14px_grey
+ {
+	font-family: casperregular, helvetica, arial, sans-serif;
+	font-size:18px;
+	font-weight:normal;
+	color:#777777;
+
+}
+/*********************tab end**********************/
+
+.cat-container {
+width: 260px;
+}
+.cat-container img {
+border: 1px solid lightgray;
+}
+
+.left-img {
+width: 95.5%;
+margin-bottom: 10px;
+}
+.category-head {
+width: 243px;
+height: 37px;
+ }
+
+.category-head span {
+float: left;
+line-height: 37px;
+padding-left: 10px;
+color: #fff;
+ }
+.cat-icon {
+border: 0  !important;
+float: left;
+}
+
+.cat-header {
+background: #0088ff;
+height: 30px;
+color:#ffffff;
+padding-left: 5px;
+font-size: 11px;
+ text-transform:uppercase;
+}
+.category-head { background-color: #000;  border: solid black thin; margin-top:1em;  }
+.category-head span { font-family: casperregular, helvetica, arial, sans-serif;  font-weight:800 !important; font-size:19px;  }
+.cat-nav a { font-family: 'open sans', sans-serif;  font-weight:600 !important; }
+.cat-nav {
+width: 95.5%;
+
+
+}
+.cat-nav ul {
+padding: 0;
+margin: 0;
+}
+.cat-nav ul li {
+padding: 0;
+margin: 0;
+}
+.cat-nav ul li {
+list-style: none;
+border-top: thin solid #bbb;
+width: 100%;
+ }
+
+
+.main_category a {
+
+text-decoration: none !important;
+
+padding-left: 10px;
+font-size: 14px;
+font-weight: bold;
+display: block;
+text-transform:uppercase;
+line-height:40px;
+}
+
+.main_category a:hover {
+color:#ffffff !important;
+background:#2a6db9;
+
+}
+.cat-nav ul li a:hover {
+color: #fff !important; background-color:#2a6db9;
+}
+.sub-category {
+display: none;
+
+}
+
+.sub-category ul li {
+	background: rgba(255,255,255,.2);
+}
+
+.sub-category ul li a {
+padding-left: 10px;
+text-decoration: none;
+line-height:40px;
+color: #ffffff;
+
+
+
+display: block;
+
+}
+
+.cat-container a, a {  transition: all 0.1s ease-in;
+	-webkit-transition: all 0.1s ease-in;
+	-moz-transition: all 0.1s ease-in;
+	 }
+
+.sub-category ul li a:hover:before {
+	text-decoration: none;
+
+	content: "\00bb \0020";
+	position:relative;
+	color:#fff !important;
+}
+
+#menusub1item div,
+.sub-sub-category {
+display: none;
+
+}
+
+.here #menusub2item { display:block; background-color:black !important; }
+
+.sub-sub-category ul {
+
+}
+.sub-sub-category ul li { }
+
+.sub-sub-category ul li a {
+
+}
+
+#menusub2item li a {
+padding-left: 30px; font-size:90%;
+}
+#menusub2item { border-bottom:solid thin #eee; background-color: #e6f0f8;}
+#menusub2item .plus2,
+#menusub1item .plus1 { display:none; position:absolute; visibility:hidden; }
+
+
+.questions { font-family: casperregular, helvetica, arial, sans-serif;
+	font-size: 26px; color: #000000; font-weight: 600;}
+
+.phonenumber { 	font-family: casperregular, helvetica, arial, sans-serif;
+font-size: 21px; color: #000000; font-weight: 400; }
+
+#ebaycategories li a { color: #000 ; }
+#menusub1item { background-color:#c3d9ee; }
+
+.categories-tree { border-left:#000 solid 2px;  border-right:#000 solid 2px; border-bottom:#000 solid 2px }
+
+
+.ppal img { max-width: 685px !important; margin: 20px 0; }
+
+
+
+
+
+.main_category.first.has-subs a,
+.main_category.last.has-subs a {  height:100px !important; line-height:100px !important;  }
+
+#ebaycategories .menuitem { overflow:hidden; height:auto !important;}
+
+.imgtable h1 {  font-size: 160%; text-align:center; }
+#box { position:absolute; height:0px; width:0px; overflow:hidden; display:none; visibility:hidden; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clear {clear: both;}
+
+
+
+/* pure css tabs */
+.tabs {
+	position: relative;
+	min-height: 100px;
+	clear: both;
+	margin: 25px 0;
+}
+.tab {
+	float: left;
+}
+.tab label {
+	background: #eee;
+	padding: 10px;
+	border: 1px solid #ccc;
+	margin-left: -1px;
+	position: absolute;
+	left: 1px;
+	cursor: pointer;
+}
+.tab [type=radio] {
+	display: none;
+}
+.content {
+	position: relative;
+	top: 39px;
+	left: 0;
+	background: white;
+	padding: 20px;
+	border: 1px solid #ccc;
+	display:none;
+	width:92%;
+}
+[type=radio]:checked ~ label {
+	background: white;
+	border-bottom: 1px solid white;
+	z-index: 2;
+}
+[type=radio]:checked ~ label ~ .content {
+	display:block;
+
+}
+
+
+.aluminum label[for=tab-2] { left: 6.4em;  }
+.aluminum label[for=tab-3] { left: 10.7em; }
+
+.carbon label[for=tab-2] { left: 6.4em;  }
+.carbon label[for=tab-3] { left: 10.7em; }
+
+.wood label[for=tab-2] { left: 6.4em;  }
+.wood label[for=tab-3] { left: 10.7em; }
+
+#boxes > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td { padding-bottom:4em !important; }
+
+
+
+
+[type=radio]:checked ~ label ~ .content > * {
+	opacity: 1;
+
+	-webkit-transform: translatex(0);
+	-moz-transform:    translatex(0);
+	-ms-transform:     translatex(0);
+	-o-transform:      translatex(0);
+}
+
+.content > * {
+	opacity: 0;
+
+	-webkit-transform: translate3d(0, 0, 0);
+
+	-webkit-transform: translatex(-100%);
+	-moz-transform:    translatex(-100%);
+	-ms-transform:     translatex(-100%);
+	-o-transform:      translatex(-100%);
+
+	-webkit-transition: all 0.6s ease;
+	-moz-transition:    all 0.6s ease;
+	-ms-transition:     all 0.6s ease;
+	-o-transition:      all 0.6s ease;
+}
+
+
+
+
+

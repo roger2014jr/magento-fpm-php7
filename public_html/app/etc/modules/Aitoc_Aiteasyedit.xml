@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Aitoc_Aiteasyedit>
+            <active>false</active>
+            <codePool>local</codePool>
+            <self_name>Front-End Editor</self_name>
+            <priority>1000</priority>
+            <depends>
+                <Mage_Adminhtml/>
+            </depends>
+        </Aitoc_Aiteasyedit>
+    </modules>
+</config>

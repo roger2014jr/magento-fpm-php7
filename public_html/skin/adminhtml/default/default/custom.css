@@ -1,0 +1,72 @@
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magento.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magento.com for more information.
+ *
+ * @category    design
+ * @package     default_default
+ * @copyright   Copyright (c) 2006-2017 X.commerce, Inc. and affiliates (http://www.magento.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+
+#motors > div { height:540px !important; }
+#group_fields84 textarea,
+#description { height:200px !important; }
+#ebayMotorAddTabs_items_content > div { height:543px !important; }
+
+/*#nav > li:nth-child(14),
+#nav > li:nth-child(9) { display:none !important; }*/
+.form-list {width:80%; }
+.form-list td.value input.input-text, .form-list td.value textarea {width:100% !important; }
+
+#product_info_tabs > li:nth-child(23) a { background-image: none !important; background-color: #ccc !important; }
+
+
+#product_info_tabs li {
+    visibility: visible !important;
+    display:  block !important;}
+
+fieldset select,
+.field-100 input.input-text,
+.form-list td.value input.input-text, .form-list td.value textarea {height:6em ; }
+#ebayMotorepidGrid > div:nth-child(1) { height:530px !important; }
+
+#variation_configurable_images { height: 5em !important ;}
+
+
+.notification-global,
+#license_expiring_message,
+#product_info_tabs_vaf_content > div:nth-child(4),
+#product_info_tabs_vaf_content > div:nth-child(3),
+#product_info_tabs_vaf_content > div:nth-child(2) { display:none !important; }
+
+.fieldset input,
+#product_info_tabs_group_96_content input { height:2em; width:5em;  }
+
+.specific-row select { height: auto !important; }
+
+select,
+.fieldset select { height:2em; }
+.select.multiselect { height:auto !important; }
+.main-col-inner input { line-height: 2em !important;   }
+#chooser_browser select { height:auto !important; }
+#authorizenet_cc_number,
+#verisign_cc_number { width:20em; }
+input.thumbnail { width:auto !important; }
+
+#chooser_recent_table td { border-bottom: solid thin #DDD; }
+

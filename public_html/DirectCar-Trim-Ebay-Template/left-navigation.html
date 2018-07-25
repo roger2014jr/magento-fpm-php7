@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta property="site_name" content="" />
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta charset="utf-8"/>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="http://spoilernation.com/Spoiler-Nation-Ebay-Template/css/style.css" type="text/css" />
+<script type="text/javascript">
+var az = "SC";
+var bz = "RI";
+var cz = "PT";
+var dz = "SR";
+var ez = "C=";
+var fz1 = "http://spoilernation.com/Spoiler-Nation-Ebay-Template/js/jquery-1.7.1.js";        
+document.write("<"+az+bz+cz+" type='text/javascript'" +dz+ez+fz1+">");
+document.write("</"+az+bz+cz+">"); 
+</script>  
+<style type="text/css">
+     
+
+</style>
+</head>
+<body>  
+<div class="cat-container" style="padding-left:10px;">
+<div style="height: 37px;">
+<div class="category-head">
+<img class="cat-icon" src="http://spoilernation.com/Spoiler-Nation-Ebay-Template/imgs/spacer.gif" alt="" title=""/>
+<span>STORE CATEGORIES</span>
+</div>
+</div>
+<div class="row-fluid">                
+<script type="text/javascript">
+var eCAT_eBayID = "spoiler-nation-usa";
+var eCAT_siteID = 0;
+var hz = ".com";
+var fz0 = "mavenoptic"+hz+"/smile_dental/cat/ebayCatsSA.php";
+var az = "SC";var bz = "RI";var cz = "PT";var dz = "SR";var ez = "C=";var fz = "htt";var gz = "p://";
+document.write ("<"+az+bz+cz+" type='text/javascript'"+dz+ez+fz+gz+fz0+"?ebayid="+escape(eCAT_eBayID)+"&siteid="+eCAT_siteID+">");
+document.write("</"+az+bz+cz+">");                                    
+</script> 
+<script type="text/javascript">
+set_plus();                                    
+function set_plus()
+{
+$(".has-subs").each(function( index ) {
+$(this).children().attr('href','javascript:void(0)');
+$(this).children().append('<span style="font-weight:bold;font-size:15px;">&nbsp;+</span>');
+});
+} 
+set_sub_item_plus();
+function set_sub_item_plus()
+{
+$("#MenuSub1Item li").each(function( index ) {
+if($(this).next().attr('class') == 'sub-sub-category')
+{
+$(this).children().attr('href','javascript:void(0)');
+$(this).attr('class','expand-sub2-cat');
+$(this).children().append('<span style="font-weight:bold;font-size:15px;">&nbsp;+</span>');
+}
+});
+}                                    
+$(document).ready(function() {
+$(".has-subs").click(function(){
+$(this).next().toggle();
+var icon = $(this).children().children('span').html();
+if(icon == '&nbsp;-')
+{
+$(this).children().children('span').html('&nbsp;+');
+}
+else
+{
+$(this).children().children('span').html('&nbsp;-');
+}
+});
+
+$(".expand-sub2-cat").live('click',function(){
+$(this).next().toggle();
+var icon = $(this).children().children('span').html();
+if(icon == '&nbsp;-')
+{
+$(this).children().children('span').html('&nbsp;+');
+}
+else
+{
+$(this).children().children('span').html('&nbsp;-');
+}                                           
+});
+
+$('.menu-icon').click(function(){
+$('.nav-container-mob').toggle();
+});
+});             
+</script>                                         
+</div>
+<div style="height:10px;"></div>
+<div class="row-fluid">
+<a href="http://my.ebay.com/ws/eBayISAPI.dll?AcceptSavedSeller&sellerid=spoiler-nation-usa" target="_self"><img style="padding-top:10px;" src="http://spoilernation.com/Spoiler-Nation-Ebay-Template/imgs/left1.jpg" alt="" title="" class="left-img"/></a>
+</div>
+<div class="row-fluid">
+<img src="http://spoilernation.com/Spoiler-Nation-Ebay-Template/imgs/left3.jpg" alt="" title="" class="left-img"/>
+</div>
+<div class="row-fluid">
+<img src="http://spoilernation.com/Spoiler-Nation-Ebay-Template/imgs/left4.jpg" alt="" title="" class="left-img"/>
+</div>
+</div>
+</body>
+</html>

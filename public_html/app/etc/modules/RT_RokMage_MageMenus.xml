@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @version    1.8.1.2 March 17, 2014
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright   Copyright (C) 2007 - 2014 RocketTheme, LLC
+ * @license    http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+ */
+-->
+<config>
+    <modules>
+        <Rockettheme_MageMenus>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Rockettheme_MageMenus>
+    </modules>
+</config>

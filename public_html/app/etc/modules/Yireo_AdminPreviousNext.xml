@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+   <modules>
+      <Yireo_AdminPreviousNext>
+         <active>false</active>
+         <codePool>community</codePool>
+      </Yireo_AdminPreviousNext>
+   </modules>
+</config>
