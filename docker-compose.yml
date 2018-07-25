@@ -1,19 +1,19 @@
 web:
   image: nginx:latest
   ports:
-    - "9081:80"
+    - "9084:80"
   expose:
     - "80"
     - "443"
-  hostname: certifiedmuffler
+  hostname: spoilernation
   environment:
-    VIRTUAL_HOST: certifiedmuffler.com
-    LETSENCRYPT_HOST: certifiedmuffler.com
-    LETSENCRYPT_EMAIL: roger2014jr@gmail.com
+    VIRTUAL_HOST: spoilernation.com
+    LETSENCRYPT_HOST: spoilernation.com
+    LETSENCRYPT_EMAIL: website@directcartrim.com
 
   volumes:
     - ./conf.d:/etc/nginx/conf.d
-    - ~/certifiedmuffler.com/public_html:/var/www/html:rw
+    - ~/spoilernation.com/public_html:/var/www/html:rw
   links:
     - php
 
@@ -23,11 +23,11 @@ php:
   expose: 
     - "9000"
   volumes:
-    - ~/certifiedmuffler.com/public_html:/var/www/html:rw
+    - ~/spoilernation.com/public_html:/var/www/html:rw
   links:
-    - "cache:rediscache"
-    - "sessions:redissession"
-    - "fullpagecache:redisfullpagecache"
+  - "cache:rediscache"
+  - "sessions:redissession"
+  - "fullpagecache:redisfullpagecache"
 
 cache:
   image: redis:latest

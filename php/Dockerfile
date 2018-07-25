@@ -1,4 +1,4 @@
-FROM php:7.0-fpm
+FROM php:5.6-fpm
 MAINTAINER Roger Ellis <roger2014jr@gmail.com>
 
 
@@ -18,7 +18,7 @@ RUN build_packages="libmcrypt-dev libpng-dev libfreetype6-dev libjpeg62-turbo-de
     && docker-php-ext-install intl \
     && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-ENV ION_CUBE_PHP_VERSION "7.0"
+ENV ION_CUBE_PHP_VERSION "5.6"
 RUN PHP_EXTENSION_DIR="$(php-config --extension-dir)" bash -c 'curl http://downloads3.ioncube.com/loader_downloads/ioncube_loaders_lin_x86-64.tar.gz -o /ioncube_loaders_lin_x86-64.tar.gz && \
     tar -xzvf /ioncube_loaders_lin_x86-64.tar.gz -C / && \
     cp "/ioncube/ioncube_loader_lin_${ION_CUBE_PHP_VERSION}.so" $PHP_EXTENSION_DIR && \

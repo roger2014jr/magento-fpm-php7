@@ -1,0 +1,957 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul, li,
+body {  transition: all 5s ease; }
+
+
+
+body::-webkit-scrollbar {
+
+    transition: all 5s ease;
+    width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.15);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #DDD;
+    outline: 1px solid #EEE;
+}
+#whiteText,
+#ds_div > div:nth-child(1) > span { color: white; }
+
+img { max-width:100%; }
+
+/* temp warning message for ebay */
+/*
+#content { padding-top:10em; background: url('https://spoilernation.com/media/spn/ebay-alert-1.jpg') transparent center top no-repeat }
+*/
+
+/* first thumb under main image in desc - FIX*/
+#boxes > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > div:nth-child(3) { margin-left:3.5em !important ; }
+
+/* installation title sometimes too small - FIX*/
+#boxes > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > div.tabs > div:nth-child(3) > div.content > p:nth-child(2) > span > strong { font-size:16px !important; }
+#rear-window-spoiler > tbody > tr:nth-child(1) > th > span.arialBlack.title { font-size: 150%; }
+
+
+
+#boxes > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > div.tabs.painted-unpainted > div:nth-child(1) > div.content > p:nth-child(2) > strong > span,
+#boxes > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > div.tabs.painted-unpainted > div:nth-child(1) > div.content > p:nth-child(2) > span > strong,
+#boxes > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > div.tabs > div:nth-child(1) > div.content > p:nth-child(2) > span > strong > span,
+#boxes > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > div.tabs > div:nth-child(1) > div.content > p:nth-child(2) > strong:nth-child(1) > span,
+#boxes > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > div.tabs > div:nth-child(1) > div.content > p:nth-child(2) > strong > strong:nth-child(1) > span,
+#boxes > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > div.tabs > div:nth-child(1) > div.content > p:nth-child(2) > strong { font-size:17px !important; }
+
+#content > table > tbody > tr:nth-child(1) > td > table > tbody > tr > td { background-color:white !important; }
+
+#content > table > tbody > tr:nth-child(4) > td > table > tbody > tr > td:nth-child(2) > div:nth-child(2) > div > p:nth-child(2) > img {
+    -webkit-border-radius:10px !important;
+    -moz-border-radius:10px !important;
+    border-radius:10px !important; }
+
+#install-drill-brake-light > tbody > tr:nth-child(1) > th > p:nth-child(2) > img { width: 42% !important; }
+
+h1 { text-align: center !important; }
+
+.content img { max-width: 100%; height: auto;  }
+
+.tab { width: 640px; }
+
+.tabs-outter { height: 47px; overflow: hidden; 
+}
+
+.floatRight { float: right; }
+
+.tabs .tab label:hover { background-color: #2a6db9 !important; color:#FFF; }
+
+.tabs .tab .tab2 { left: 8.6em             ;}
+
+.tabs .tab .tab3 { left: 21.9em            ;}
+
+.painted.tabs .tab .tab3 { left:  20.7em   ;}
+.carbon.tabs .tab .tab3  { left:  23.1em   ;}
+
+.painted-unpainted .tab label {  padding:10px 30px;  }
+
+.img img { max-width: 100%; border-radius: 15px; }
+.img-float-left { float: left; margin: 2em 2.4em 3em 0; max-width: 150px; overflow: hidden; border-radius: 10px; }
+.img-float-left img { min-width: 100%; }
+
+.last { margin-right: 0 !important; }
+/*
+STORE CSS
+*/
+		
+.imgTable {
+	background-color: #333;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-khtml-border-radius: 8px;
+	border-radius: 8px;
+	background-color: #f1f1f1 !important;
+}
+
+
+li.level2 ul { display: none !important; transition: all 5s ease;  }
+#mCats1 li.has-sub.level1:hover a + ul {opacity: 1; display: block 	; transition: all 5s ease; }
+#mCats1 li.has-sub.level2:hover a + ul {opacity: 1; display: block !important ; transition: all 5s ease;  }
+
+
+
+@charset "UTF-8";
+#holder {
+	background-image: url(https://spoilernation.com/images/ebay-template_files/bg.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-color: #fff;
+	margin: auto;
+}
+#content {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #fff;
+}
+#searchwrapper {
+	width: 251px;
+	/*follow your image's size*/
+	height: 36px;
+	/*follow your image's size*/
+	background-repeat: no-repeat;
+	/*important*/
+	padding: 0px;
+	margin: 0px;
+	position: relative;/*important*/
+}
+#searchwrapper form {
+	display: inline;
+}
+.searchbox {
+	border: 0px;
+	/*important*/
+	background-color: transparent;
+	/*important*/
+	position: absolute;
+	/*important*/
+	top: 5px;
+	left: 17px;
+	width: 174px;
+	height: 25px;
+	padding-left: 7px;
+}
+.searchbox_submit {
+	border: 0px;
+	/*important*/
+	background-color: transparent;
+	/*important*/
+	position: absolute;
+	/*important*/
+	top: 3px;
+	left: 203px;
+	width: 35px;
+	height: 30px;
+}
+#menu {
+	width: 700px;
+	height: 36px;
+	font-size: 12px;
+	font-family: CasperRegular, Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	color: #fff;
+	text-align: left;
+	line-height: 36px;
+	padding-left: 0px;
+}
+#menu ul {
+	line-height: 36px;
+	padding: 0px 0px 0 0;
+	margin: 0px;
+	color: #fff;
+}
+#menu li {
+	line-height: 36px;
+	display: inline;
+	padding: 0px;
+	color: #fff;
+}
+#menu a {
+	line-height: 36px;
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 10px 11px 10px;
+}
+#menu a:hover {
+	line-height: 36px;
+	color: #fff;
+	background-color: #777;
+}
+#eBayCategories {
+	width: 245px;
+	margin: 0;
+}
+#eBayCategories a {
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 36px;
+	color: #000000;
+	text-decoration: none;
+}
+#eBayCategories a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+/* All Unordered Lists */
+		
+#eBayCategories ul {
+	list-style-type: none;
+	padding: 0px 0px 0px 0px;
+	margin: 0;
+}
+/* 1st Menu Level */
+		
+#eBayCategories .MenuItem {
+	margin: 0px;
+	background-color: #fbfbfb;
+	border-bottom: thin;
+	display: block;
+	height: 36px;
+	padding: 0px 0px 0px 0px;
+	border-bottom: thin solid #CCC;
+	border-left: thin solid #CCC;
+	border-right: thin solid #CCC;
+}
+#eBayCategories .MenuItem li {
+	padding: 0 0 0px 0px;
+	line-height: 36px;
+	margin: 0;
+}
+/* 2nd Menu Level */
+		
+#eBayCategories .MenuSub1Item {
+	font-weight: normal;
+	background-color: #FFFFFF;
+	margin: 0;
+}
+#eBayCategories .MenuSub1Item li {
+	padding: 5px 0 5px 15px;
+	margin: 0;
+}
+/* 3rd Menu Level */
+		
+#eBayCategories .MenuSub2Item {
+	font-weight: normal;
+	background-color: #EEEEEE;
+	margin: 0;
+}
+#eBayCategories .MenuSub2Item li {
+	padding: 5px 0 5px 25px;
+	margin: 0;
+}
+.SubHeaderTitles {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+}
+.MainDescTextBody {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #777;
+}
+#box {
+	border: thin solid #CCC;
+}
+.gallery-row-view {
+	margin-bottom: 2em;
+}
+#boxes {
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-bottomright: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.searchbox1 {
+	border: 0px;
+	/*important*/
+	background-color: transparent;
+	/*important*/
+	position: absolute;
+	/*important*/
+	top: 9px;
+	left: 20px;
+	width: 174px;
+	height: 17px;
+	padding-left: 7px;
+}
+.imgTable {
+	background-color: #333;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-khtml-border-radius: 8px;
+	border-radius: 8px;
+}
+.smallTxt {
+	font-size: 10px;
+}
+.tab_content img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#install-drill-brake-light .floatRight { float: right; margin-left: 1em; }
+#install-drill-brake-light .arialBlack { font-family: Arial Black, Arial Bold, Gadget, sans-serif; }
+#install-drill-brake-light .title { font-size: 21pt; }
+#install-drill-brake-light .subTitle { font-size: 21pt;  }
+#install-drill-brake-light .arial { font-family: Arial, Helvetica Neue, Helvetica, sans-serif; }
+#install-drill-brake-light img { max-width: 100%; }
+#install-drill-brake-light .notice { display:block; color: #cc0e08; font-weight: normal; margin: 2em 0; text-align: center; font-size:15px !important;}
+#install-drill-brake-light .column { width: 45%; }
+#install-drill-brake-light .stepTitle { margin-top: 0em; font-size: 14pt; font-weight: bold; margin-bottom:.5em !important;  }
+#install-drill-brake-light p { font-size: 12pt; }
+#install-drill-brake-light tbody img { margin:0em !important; padding:0em !important; border: none !important; }
+.cms-page-view .col-main .std { padding: 1em 0em; }
+
+#rear-window-spoiler .notice {display: block;color: #cc0e08;font-weight: normal;margin: 2em 0;text-align: left; font-size:15px !important; }
+#rear-window-spoiler p.leftPadding { display:inline-block; padding-left:2em; }
+
+.TAWing { width:100%; }
+.ta-wing-big { width:90%; display:block;  }
+.padRight { padding-right:1em; }
+
+
+
+body
+ { 
+	background:#fff no-repeat center top fixed;
+}
+/****Top menu style***********/
+#nav_menu { 
+    height: 62px;
+    width: 100%;
+    margin: 0px 0;
+    /*background-image:url('http://spoilernation.com/images/carbon-fiber.png');*/
+    background-color:#DDD; 
+}
+#nav_menu #menu_panel { 
+    height: 62px;
+    width: 100%;
+    float: left;
+	margin-left:1px;
+	font-family: CasperRegular, Helvetica, Arial, sans-serif;
+	font-size:14px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+#nav_menu #menu_panel span { 
+
+}
+#nav_menu #menu_panel a { 
+    float: left;
+    color: #585858 !important;
+    font-weight: bold;
+    font-size: 16px;
+    height: 62px;
+    display: block;
+    line-height: 62px;
+    padding: 0px 58px;
+	font-family: CasperRegular, Helvetica, Arial, sans-serif;
+	font-size:14px;
+	text-decoration:none;
+	border-right:1px solid #585858;
+
+}
+#nav_menu #menu_panel a:hover { 
+    background: #2a6db9; color:#fff !important;
+}
+
+#nav_menu #menu_panel a:active { 
+    background: #FFF;
+}
+
+/****Top menu style***********/
+
+
+
+
+/*Store default start*/
+.v4title
+ { 
+	text-transform:uppercase !important;
+}
+.v4acp_head
+ { 
+	text-transform:uppercase !important;
+}
+.v4mid
+ { 
+	text-transform:uppercase !important;
+	color:#575756 !important;
+	font-size:12px !important;
+
+}
+.lcat
+ { 
+	text-transform:uppercase !important;
+	color:#575756 !important;
+	font-size:12px !important;
+}
+.lev1
+ { 
+	text-transform:uppercase !important;
+	color:#575756 !important;
+	font-size:12px !important;
+}
+.lev1 a
+ { 
+	text-transform:uppercase !important;
+	color:#575756 !important;
+	font-size:12px !important;
+}
+.ttl
+ { 
+	text-transform:uppercase !important;
+	color:#575756 !important;
+	font-size:12px !important;
+}
+
+.v4acpcont
+ { 
+	padding-left:10px;
+}
+.v4acp_head
+ { 
+	border-radius: 10px;
+}
+.lcat li
+ { 
+	border-bottom:1px dotted #999999;
+	padding-bottom:3px;
+}
+
+table.v4thldr td  { 
+    color: #FFFFFF;
+}
+#CentralArea
+ { 
+	padding-right:10px;
+}
+/*Store default end*/
+
+.pagecontainer
+ { 
+	background:#f1f1f1;
+	box-shadow: 0px 1px 8px #999999;
+}
+.toplink
+ { 
+	font-family: CasperRegular, Helvetica, Arial, sans-serif;
+	font-size:11px;
+	color:#585756;
+	text-decoration:none;
+	font-weight:bold;
+}
+.toplink a
+ { 
+	font-family: CasperRegular, Helvetica, Arial, sans-serif;
+	font-size:11px;
+	color:#585756;
+	text-decoration:none;
+	font-weight:bold;
+}
+.toplink a:hover
+ { 
+	font-family: CasperRegular, Helvetica, Arial, sans-serif;
+	font-size:11px;
+	color:#a40000;
+	text-decoration:none;
+	font-weight:bold;
+}
+.toplink a:visited
+ { 
+	font-family: CasperRegular, Helvetica, Arial, sans-serif;
+	font-size:11px;
+	color:#a40000;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+.menu_txt
+ { 
+	font-family: CasperRegular, Helvetica, Arial, sans-serif;
+	font-size:15px;
+	color:#ffffff;
+	text-decoration:none;
+	font-weight:300;
+}
+.menu_txt a
+ { 
+	font-family: CasperRegular, Helvetica, Arial, sans-serif;
+	font-size:15px;
+	color:#ffffff;
+	text-decoration:none;
+	font-weight:300;
+}
+.menu_txt a:hover
+ { 
+	font-family: CasperRegular, Helvetica, Arial, sans-serif;
+	font-size:15px;
+	color:#beeb49;
+	text-decoration:none;
+	font-weight:300;
+}
+
+.header_txt
+ { 
+	font-family: CasperRegular, Helvetica, Arial, sans-serif;
+	font-size:25px;
+	color:#5c0407;
+	border-bottom:1px solid #a3a3a3;
+}
+.txt2grey
+ { 
+	font-family: CasperRegular, Helvetica, Arial, sans-serif;
+	font-size:18px;
+	line-height:20px;
+	color:#303030;
+}
+.price_txt
+ { 
+	font-family: CasperRegular, Helvetica, Arial, sans-serif;
+	font-size:25px;
+	text-align:center;
+	line-height:40px;
+	color:#444444;
+}
+.txt_details
+ { 
+	font-family: CasperRegular, Helvetica, Arial, sans-serif;
+	font-size:12px;
+	color:#CCCCCC;
+	padding:2px 0 2px 5px;;
+	background:#1d1818;
+}
+.txt_desc2
+ { 
+	font-family: CasperRegular, Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 150%!important;
+	color:#000;
+}
+.price_bg_black
+ { 
+	height:38px;
+	font-family: CasperRegular, Helvetica, Arial, sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	color:#FFFFFF;
+	vertical-align:middle;
+	padding-left:10px;
+	background-color:#000;
+	background-image:url('http://spoilernation.com/images/carbon-fiber.png');
+}
+
+
+/* Slider css start  */
+
+#slider  { 
+    width:auto;
+    height:303px;/* Make it the same size as your images */
+    background-color:#FFFFFF;
+    position:relative;
+    margin:0 auto;/*make the image slider center-aligned */
+    left: 5.5em;
+    top: 1em;
+}
+#slider img  { 
+    position:absolute;
+    border:none;
+    display:none;
+}
+
+#slider a.imgLink  { 
+    z-index:2;
+    display:none;
+    position:absolute;
+    top:0px;
+    left:0px;
+    border:0;
+    padding:0;
+    margin:0;
+    width:100%;
+    height:100%;
+}
+#slider 
+ { 
+    transform: translate3d(0,0,0);
+    -ms-transform:translate3d(0,0,0);
+    -moz-transform:translate3d(0,0,0);
+    -o-transform:translate3d(0,0,0);
+}
+
+/* Slider css end  */
+
+/*********************TAB**********************/
+
+	ul.tabs  { 
+		margin: 0;
+		padding: 0;
+		float: left;
+		list-style: none;
+		height: 45px;
+		border-bottom: 1px solid #999999;
+		border-left: 1px solid #999999;
+		width: 682px;
+	}
+	ul.tabs li  { 
+		float: left;
+margin: 0;
+cursor: pointer;
+padding: 0px 13px;
+text-align: center;
+width: 21%;
+height: 45px;
+line-height: 45px;
+border: 1px solid #999999;
+border-left: none;
+ 
+background: #EEEEEE;
+overflow: hidden;
+position: relative;
+		
+
+
+	}
+ul.tabs.noCarbon li { padding: 0px 41px !important;}	
+	#eBayCategories li a { color:#000 !important }
+	#eBayCategories li a:hover { color:#FFFFFF !important; }
+	
+	ul.tabs li:hover  { 
+		background: #2a6db9; color:#FFF; 
+	}	
+	ul.tabs li.active { 
+		background: #2a6db9;
+		border-bottom: 1px solid #2a6db9;
+		
+	}
+	.tab_container  { 
+		border: 1px solid #999999;
+		border-top: none;
+		clear: both;
+		float: left; 
+		width: 681px;
+		background: #FFFFFF;
+	}
+	.tab_content  { 
+		padding: 20px;
+		line-height:150% !important; 
+		font-size:16px; 
+		display: none;
+	}
+	#container  { 
+		/*width: 960px;*/
+		margin: 0 auto;	
+		font-family: CasperRegular, Helvetica, Arial, sans-serif;
+		
+	}
+	#container .tabs  { 
+		font-family: CasperRegular, Helvetica, Arial, sans-serif;
+		font-size:16px;
+        font-weight:normal !important; 
+		 
+		color:#444444;
+		
+	}
+    
+    #container .tabs .active { color:#FFFFFF !important}
+    
+.txt_14px_grey
+ { 
+	font-family: CasperRegular, Helvetica, Arial, sans-serif;
+	font-size:18px;
+	font-weight:normal;
+	color:#777777;
+
+}	
+/*********************TAB END**********************/
+
+.cat-container { 
+width: 260px;
+}         
+.cat-container img { 
+border: 1px solid lightgray;              
+}
+
+.left-img { 
+width: 95.5%;
+margin-bottom: 10px;
+}
+.category-head { 
+width: 246px;
+height: 37px;
+ }
+
+.category-head span {  
+float: left;
+line-height: 37px;
+padding-left: 10px;
+color: #fff;
+ }
+.cat-icon { 
+border: 0  !important;
+float: left;
+}
+
+.cat-header { 
+background: #0088ff;        
+height: 30px;
+color:#FFFFFF;
+padding-left: 5px;
+font-size: 11px;
+ text-transform:uppercase;
+}
+.category-head { background-color: #000;  border: solid black thin; margin-top:1em;  }
+.category-head span { font-family: CasperRegular, Helvetica, Arial, sans-serif;  font-weight:800 !important; font-size:19px;  }
+.cat-nav a { font-family: 'Open Sans', sans-serif;  font-weight:600 !important; }
+.cat-nav {         
+width: 95.5%;  
+
+
+}
+.cat-nav ul { 
+padding: 0;
+margin: 0;
+}    
+.cat-nav ul li { 
+padding: 0;
+margin: 0;
+}    
+.cat-nav ul li { 
+list-style: none;
+border-top: thin solid #bbb;
+width: 100%;
+ }
+ 
+ 
+.main_category a {        
+
+text-decoration: none !important;
+
+padding-left: 10px;
+font-size: 14px;
+font-weight: bold;
+display: block;
+text-transform:uppercase; 
+line-height:40px; 
+}
+
+.main_category a:hover {        
+color:#ffffff !important;
+background:#2a6db9;  
+
+}
+.cat-nav ul li a:hover { 
+color: #FFF !important; background-color:#2a6db9; 
+}
+.sub-category { 
+display: none;
+    opacity: 0;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+.sub-category ul li { 
+	background: rgba(255,255,255,.2);
+}
+
+.sub-category ul li a {       
+padding-left: 10px;
+text-decoration: none;
+line-height:40px; 
+color: #ffffff;
+
+
+ 
+display: block;
+
+}
+
+.cat-container a, a {  transition: all 0.1s ease-in;
+	-webkit-transition: all 0.1s ease-in;
+	-moz-transition: all 0.1s ease-in; 
+	 }
+
+.sub-category ul li a:hover:before {       
+	text-decoration: none;
+
+	content: "\00BB \0020";
+	position:relative;
+	color:#FFF !important;	
+}
+
+#MenuSub1Item div,
+.sub-sub-category { 
+display: none;
+    opacity: 0;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+.here #MenuSub2Item { display:block; background-color:black !important; }
+
+
+.tab_container ul li { font-size:13px; line-height:140%; }
+.tab_container p strong { font-size:95%; }
+.tab_container p strong:first-child span { font-size:120% !important; }
+.tab_container #tab1 img { width:130px !important; }
+
+#MenuSub2Item li a { 
+padding-left: 30px; font-size:90%; 
+} 
+#MenuSub2Item { border-bottom:solid thin #eee; background-color: #e6f0f8;}
+#MenuSub2Item .plus2,
+#MenuSub1Item .plus1 { display:none; position:absolute; visibility:hidden; }
+
+
+.questions { font-family: CasperRegular, Helvetica, Arial, sans-serif;
+	font-size: 26px; color: #000000; font-weight: 600;}
+
+.phoneNumber { 	font-family: CasperRegular, Helvetica, Arial, sans-serif;
+font-size: 21px; color: #000000; font-weight: 400; }
+	
+#eBayCategories li a { color: #000 ; }
+#MenuSub1Item { background-color:#c3d9ee; }
+
+.categories-tree { border-left:#000 solid 2px;  border-right:#000 solid 2px; border-bottom:#000 solid 2px } 
+
+
+.ppal img { max-width: 685px !important; margin: 20px 0; }
+
+
+ #tab1 p span strong:first-child { display:block; font-size:130%; display: inline;  }
+    
+ #tab1 p span strong > strong { font-size: 100% !important; }
+
+
+
+
+
+
+
+.clear {clear: both;}
+
+
+
+/* Pure CSS Tabs */
+.tabs {
+    position: relative;
+    min-height: 100px;
+    clear: both;
+    margin: 25px 0;
+}
+.tab {
+    float: left;
+}
+.tab label {
+    background: #000;
+	top: -4px;
+    padding: 10px 50px;
+    border: 1px solid #ccc;
+    margin-left: -1px;
+    position: absolute;
+    left: 1px;
+    cursor: pointer;
+	font-size: 115%;
+	color: #fff !important;
+	
+}
+.tab [type=radio] {
+    display: none;
+}
+.content {
+    position: relative;
+    top: 39px;
+    left: 0;
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    display:none;
+    width:94%;
+}
+[type=radio]:checked ~ label {
+    background: white;
+    border-bottom: 1px solid white;
+    color: black !important;
+    z-index: 2;
+
+}
+[type=radio]:checked ~ label:hover {
+    color: white !important;
+}
+[type=radio]:checked ~ label ~ .content {
+    display:block;
+
+}
+
+
+.unpainted label[for=tab-2] { left: 4.4em; }
+.unpainted label[for=tab-3] { left: 13.4em; }
+
+.painted label[for=tab-2] { left: 4.4em; }
+.painted label[for=tab-3] { left: 12.3em; }
+
+.painted-unpainted label[for=tab-2] { left: 6.4em;}
+.painted-unpainted label[for=tab-3] { left: 17.4em;}
+.painted-unpainted label[for=tab-4] { left: 27.3em;}
+
+
+.painted-unpainted.unpainted label[for=tab-4] {
+	left: 17.5em !important;
+}
+
+
+[type=radio]:checked ~ label ~ .content > * {
+    opacity: 1;
+
+    -webkit-transform: translateX(0);
+    -moz-transform:    translateX(0);
+    -ms-transform:     translateX(0);
+    -o-transform:      translateX(0);
+}
+
+.content > * {
+    opacity: 0;
+
+    -webkit-transform: translate3d(0, 0, 0);
+
+    -webkit-transform: translateX(-100%);
+    -moz-transform:    translateX(-100%);
+    -ms-transform:     translateX(-100%);
+    -o-transform:      translateX(-100%);
+
+    -webkit-transition: all 0.6s ease;
+    -moz-transition:    all 0.6s ease;
+    -ms-transition:     all 0.6s ease;
+    -o-transition:      all 0.6s ease;
+}
+
+
+

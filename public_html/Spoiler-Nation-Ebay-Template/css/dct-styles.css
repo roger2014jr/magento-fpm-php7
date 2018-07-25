@@ -1,0 +1,76 @@
+/* CSS Document */
+@charset "UTF-8";
+
+
+h1 { white-space: nowrap !important; }
+
+#content > table > tbody > tr:nth-child(1) > td,
+#Table_01 { background-color: #FFF; }
+
+#boxes > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > p > img {
+ max-height:400px !important;
+ height:auto !important;}
+
+#boxes > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > div.tabs.painted-unpainted > div:nth-child(1) > div.content > p:nth-child(2) > span > strong:nth-child(1) > strong,
+#boxes > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > div.tabs.painted-unpainted > div:nth-child(1) > div.content > p:nth-child(2) > span > strong:nth-child(2) > span { font-size: 17px !important; }
+
+#boxes > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > div.tabs.painted-unpainted > div:nth-child(4) > div.content > p:nth-child(2) > img { max-width: 100%; height: auto; }
+
+
+#boxes > tbody > tr > td.paintedUnpainted > table > tbody > tr > td > table > tbody > tr > td > div:nth-child(3) {
+ margin-left:6em !important; }
+
+
+.content { width: 660px !important; }
+/*
+STORE CSS
+*/
+.imgTable {  background-color: #333; -moz-border-radius: 8px; -webkit-border-radius: 8px; -khtml-border-radius: 8px; border-radius: 8px; background-color: #f1f1f1; margin:0  0 0 1.25em; } 
+
+.paintedUnpainted .imgTable { margin: 0 !important; }
+
+#holder {  background-image: url(https://spoilernation.com/images/ebay-template_files/bg.jpg); background-position: center top; background-repeat: no-repeat; background-color: #fff; margin: auto;} 
+#content {  width: 100%; margin: 0 auto; background-color: #fff;} 
+#searchwrapper {  width: 251px; /*follow your image's size*/ height: 36px;/*follow your image's size*/ background-repeat: no-repeat; /*important*/
+ padding: 0px; margin: 0px; position: relative; /*important*/ }
+#searchwrapper form {  display: inline;} 
+.searchbox {  border: 0px; /*important*/  background-color: transparent; /*important*/ position: absolute; /*important*/
+ top: 5px; left: 17px; width: 174px; height: 25px; padding-left: 7px;} 
+.searchbox_submit {  border: 0px; /*important*/  background-color: transparent; /*important*/ position: absolute; /*important*/ top: 3px; left: 203px; width: 35px; height: 30px;} 
+#menu {  width: 700px; height: 36px; font-size: 12px; font-family: CasperRegular, Helvetica, Arial, sans-serif; font-weight: normal; color: #fff; text-align: left; line-height: 36px; padding-left: 0px;} 
+#menu ul {  line-height: 36px; padding: 0px 0px 0 0; margin: 0px; color: #fff;} 
+#menu li {  line-height: 36px; display: inline; padding: 0px; color: #fff;} 
+#menu a {  line-height: 36px; text-decoration: none; color: #fff; padding: 10px 10px 11px 10px;} 
+#menu a:hover {  line-height: 36px; color: #fff; background-color: #777;} 
+#eBayCategories {  width: 245px; margin: 0;} 
+#eBayCategories a {  font-size: 12px; font-family: Arial, Helvetica, sans-serif; line-height: 36px; color: #000000; text-decoration: none;} 
+#eBayCategories a:hover {  text-decoration: none; color: #fff;} 
+/* All Unordered Lists */
+#eBayCategories ul {  list-style-type: none; padding: 0px 0px 0px 0px; margin: 0;} 
+/* 1st Menu Level */
+#eBayCategories .MenuItem {  margin: 0px; background-color: #fbfbfb; border-bottom: thin; display: block; padding: 0px 0px 0px 0px; border-bottom: thin solid #CCC; border-left: thin solid #CCC; border-right: thin solid #CCC;} 
+#eBayCategories .MenuItem li {  padding: 0 0 0px 0px; line-height: 36px; margin: 0;} 
+/* 2nd Menu Level */
+#eBayCategories .MenuSub1Item {  font-weight: normal; background-color: #FFFFFF; margin: 0;} 
+#eBayCategories .MenuSub1Item li {  padding: 5px 0 5px 15px; margin: 0;} 
+/* 3rd Menu Level */
+#eBayCategories .MenuSub2Item {  font-weight: normal; background-color: #EEEEEE; margin: 0;} 
+#eBayCategories .MenuSub2Item li {  padding: 5px 0 5px 25px; margin: 0;} 
+.SubHeaderTitles {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #fff;} 
+.MainDescTextBody {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #777;} 
+#box {  border: thin solid #CCC;} 
+.gallery-row-view {  margin-bottom: 2em;} 
+#boxes {  -webkit-border-top-right-radius: 10px; -webkit-border-bottom-right-radius: 10px; -moz-border-radius-topright: 10px; -moz-border-radius-bottomright: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px;} 
+.searchbox1 {  border: 0px; /*important*/
+ background-color: transparent; /*important*/
+ position: absolute; /*important*/
+ top: 9px; left: 20px; width: 174px; height: 17px; padding-left: 7px;} 
+.imgTable {  background-color: #333; -moz-border-radius: 8px; -webkit-border-radius: 8px; -khtml-border-radius: 8px; border-radius: 8px;} 
+.smallTxt {  font-size: 10px;} 
+.tab_content img {  max-width: 100%; height: auto;} 
+.main_category.first.has-subs a, .main_category.last.has-subs a {  height: 100px !important; line-height: 100px !important;} 
+#MenuSub2Item li a, #MenuSub2Item li a:hover {  white-space: nowrap; overflow: hidden;} 
+.category-head {  width: 246px !important;} 
+#nav_menu #menu_panel a {  padding: 0 6.26% !important;} 
+#nav_menu #menu_panel { width:1015px; }
+ul.gallery-thumbnail img { width: auto !important; }
